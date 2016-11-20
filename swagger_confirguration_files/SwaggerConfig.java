@@ -7,7 +7,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import static springfox.documentation.builders.PathSelectors.regex;
 import static com.google.common.base.Predicates.or;
 @Configuration
-@EnableSwagger2
+@EnableSwagger2 // to enable the swagger support
 public class SwaggerConfig {
 
 	@Bean
