@@ -6,6 +6,8 @@ My SQL Server install in centos
  
  start the mysql 
  mysql -u root -p(as root)
+ 
+http://hortonworks.com/training/certification/exam-objectives/#hdpcd
 
 1. Import data from a table in a relational database into HDFS
 
@@ -19,6 +21,9 @@ reference: http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_dataintegr
 
 
 2 Import the results of a query from a relational database into HDFS
+
+
+reference : http://hadooped.blogspot.in/2013/05/apache-sqoop-for-data-integration.html
 
 3 Import a table from a relational database into a new or existing Hive table
 
