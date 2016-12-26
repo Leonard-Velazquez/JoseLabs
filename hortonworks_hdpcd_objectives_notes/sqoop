@@ -1,0 +1,14 @@
+My SQL Server install in centos
+
+ install the server - sudo yum install mysql-server
+ start the service - sudo /sbin/service mysqld start
+ secure installation - sudo /usr/bin/mysql_secure_installation
+ 
+ start the mysql 
+ mysql -u root -p(as root)
+
+1. Import data from a table in a relational database into HDFS
+
+to show all the database names at present - show database;
+to use a particalur database - use database_name;
+to show tables in that database - show tables;
