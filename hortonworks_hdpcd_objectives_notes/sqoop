@@ -9,11 +9,11 @@ My SQL Server install in centos
 
 1. Import data from a table in a relational database into HDFS
 
-to show all the database names at present - show database;
-to select a database - use database_name;
-to show tables in that database - show tables;
+to show all the database names at present ==> show database;
+to select a database ==> use database_name;
+to show tables in that database ==> show tables;
 
-import command --> sqoop import --connect jdbc:mysql://localhost:3306/retail_db --username root --password cloudera --table categories
+ command ==> sqoop import --connect jdbc:mysql://localhost:3306/retail_db --username root --password cloudera --table categories --hive-import --hive-table retail_db --target-dir /user/hive/warehouse/retail
 
 reference: http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_dataintegration/content/using_sqoop_to_move_data_into_hive.html
 
