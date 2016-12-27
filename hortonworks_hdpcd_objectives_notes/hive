@@ -1,0 +1,47 @@
+Write and execute a Hive query
+
+Define a Hive-managed table
+
+Define a Hive external table
+
+Define a partitioned Hive table
+
+Define a bucketed Hive table
+
+Define a Hive table from a select query
+
+Define a Hive table that uses the ORCFile format
+
+Create a new ORCFile table from the data in an existing non-ORCFile Hive table
+
+Specify the storage format of a Hive table
+
+Specify the delimiter of a Hive table
+
+Load data into a Hive table from a local directory
+
+Load data into a Hive table from an HDFS directory
+
+Load data into a Hive table as the result of a query
+
+Load a compressed data file into a Hive table
+
+Update a row in a Hive table
+
+Delete a row from a Hive table
+
+Insert a new row into a Hive table
+
+Join two Hive tables
+
+Run a Hive query using Tez
+
+Run a Hive query using vectorization
+
+Output the execution plan for a Hive query
+
+Use a subquery within a Hive query
+
+Output data from a Hive query that is totally ordered across multiple reducers
+
+Set a Hadoop or Hive configuration property from within a Hive query
