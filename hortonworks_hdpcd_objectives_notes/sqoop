@@ -15,8 +15,17 @@ to show all the database names at present ==> show database;
 to select a database ==> use database_name;
 to show tables in that database ==> show tables;
 
- command ==> sqoop import --connect jdbc:mysql://localhost:3306/retail_db --username root --password cloudera --table categories --hive-import --hive-table retail_db --target-dir /user/hive/warehouse/retail
+Data in HDFS
+sqoop import --connect jdbc:mysql://localhost:3306/retail_db --username root --password cloudera --query 'select * from customers where $CONDITIONS' --split-by customers.customer_id  --target-dir /home/cloudera/jthiyaga/sqooptest
+QueryResult.java files gets created and hdfs data can be seen in this path "/home/cloudera/jthiyaga/sqooptest"
 
+Data in Hive
+ command ==> sqoop import --connect jdbc:mysql://localhost:3306/retail_db --username root --password cloudera --table products --hive-import --hive-table productimport --target-dir /home/cloudera/jthiyaga/sqooptest/
+ For the above query 4 mappers are being used. The output can be checked in hdfs dir. hdfs dfs -ls /home/cloudera/jthiyaga/sqoopcheck
+ 
+ Just go to this path "/home/cloudera/jthiyaga/sqooptest/" to check a java file named "products.java"(table name which you have given in sqoop commmand).
+ It is a POJO class with equals method, class implements mapred interface like DBWritable and Writable 
+ 
 reference: http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_dataintegration/content/using_sqoop_to_move_data_into_hive.html
 
 
