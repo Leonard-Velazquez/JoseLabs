@@ -35,9 +35,12 @@ reference: http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.3.0/bk_dataintegr
 reference : http://hadooped.blogspot.in/2013/05/apache-sqoop-for-data-integration.html
 
 3 Import a table from a relational database into a new or existing Hive table
-
+ create a table in hive with the right table definition. Using sqoop import command import the data from RDMS to Hive.
+ 
 4 Insert or update data from HDFS into a table in a relational database
 
 5 Given a Flume configuration file, start a Flume agent
+Flume to HDFS
+https://www.cloudera.com/documentation/other/tutorial/CDH5/topics/ht_flume_to_hdfs.html
 
 6 Given a configured sink and source, configure a Flume memory channel with a specified capacity
