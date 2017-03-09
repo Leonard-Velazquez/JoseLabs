@@ -5,7 +5,7 @@ My SQL Server install in centos
  secure installation - sudo /usr/bin/mysql_secure_installation
  
  start the mysql 
- mysql -u root -p(as root)
+mysql -uroot -pcloudera (root user)
  
 http://hortonworks.com/training/certification/exam-objectives/#hdpcd
 
