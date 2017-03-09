@@ -3,9 +3,15 @@ My SQL Server install in centos
  install the server - sudo yum install mysql-server
  start the service - sudo /sbin/service mysqld start
  secure installation - sudo /usr/bin/mysql_secure_installation
- 
- start the mysql 
+
+Cloudera 
+start the mysql 
 mysql -uroot -pcloudera (root user)
+
+hortonworks
+start the mysql 
+mysql -uroot -phadoop (root user)
+
  
 http://hortonworks.com/training/certification/exam-objectives/#hdpcd
 
