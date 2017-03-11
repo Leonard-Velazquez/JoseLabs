@@ -49,5 +49,12 @@ reference : http://hadooped.blogspot.in/2013/05/apache-sqoop-for-data-integratio
 Flume to HDFS
 https://www.cloudera.com/documentation/other/tutorial/CDH5/topics/ht_flume_to_hdfs.html
 
+https://community.hortonworks.com/questions/14713/flume-tutorials.html
+https://hortonworks.com/hadoop-tutorial/how-to-refine-and-visualize-server-log-data/
+https://hortonworks.com/hadoop-tutorial/learning-ropes-apache-nifi/#download-nifi-sandbox
+https://hortonworks.com/hadoop-tutorial/how-to-refine-and-visualize-sentiment-data/#install-apache-nifi		
+http://localhost:9090/ NiFi
+
+
 6 Given a configured sink and source, configure a Flume memory channel with a specified capacity
 https://www.youtube.com/watch?v=dU-mapwDEC0
