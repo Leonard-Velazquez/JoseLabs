@@ -1,6 +1,6 @@
 import "com.twilio.sdk.*,com.twilio.sdk.resource.factory.*,com.twilio.sdk.resource.instance.*";
 
-TwilioRestClient client = new TwilioRestClient(("Oauth_KEY"),("OUATH_VALUE"));
+TwilioRestClient client = new TwilioRestClient(("ACCOUNT_SID"),("AUTH_TOKEN"));
 	Account acc = client.getAccount();
 	SmsFactory factory = acc.getSmsFactory();
 	HashMap<String, String> message = new HashMap<>();
