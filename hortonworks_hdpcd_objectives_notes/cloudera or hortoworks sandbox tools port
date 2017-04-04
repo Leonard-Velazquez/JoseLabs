@@ -1,4 +1,4 @@
-cloudera
+#cloudera
 http://YOURIPADDRESS:11000/oozie/
 http://YOURIPADDRESS:8983/solr/#/
 http://YOURIPADDRESS:8888/about/ hue
@@ -7,7 +7,7 @@ http://YOURIPADDRESS:50090/status.html
 http://YOURIPADDRESS:50075 datanode
 YOURIPADDRESS:8088/cluster - yarn resourcemanager
 YOURIPADDRESS:8042/node - yarn nodemanager
-hbase
+##hbase
 YOURIPADDRESS:60030/rs-status - hbase region server
 YOURIPADDRESS:60010/master-status - hbase master
 impala
